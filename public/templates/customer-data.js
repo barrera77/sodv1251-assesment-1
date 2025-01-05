@@ -1,6 +1,6 @@
 const customersDataRow = (customer) => `
 <tr>
-     <td class="px-0">
+    <td class="px-0">
         <div class="d-flex justify-content-center gap-3">
         <a href="/customer-details?id=${customer.id}" class="btn btn-view" data-link>
             <i class="bi bi-binoculars"></i>

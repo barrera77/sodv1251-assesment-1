@@ -45,6 +45,6 @@ app.get("/*", (req, res) => {
   res.sendFile(path.resolve("public", "index.html"));
 });
 
-app.listen(process.env.PORT || 3000, () =>
-  console.log("Server running on http://localhost:3000")
+app.listen(process.env.PORT || 3001, () =>
+  console.log("Server running on http://localhost:3001")
 );

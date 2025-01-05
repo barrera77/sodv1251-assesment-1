@@ -46,7 +46,7 @@ export default class extends AbstractView {
     <table class="table table-striped table-sm">
         <thead class="border-bottom border-secondary">
         <tr>
-            <th scope="col" class="text-center">Action</th>
+            <th scope="col" class=" ">Action</th>
             <th scope="col">Name</th>
             <th scope="col">Address</th>
             <th scope="col">City</th>
